@@ -28,7 +28,7 @@ export function CarCard({ name, image, price, id = "default" }: CarCardProps) {
           <MoreHorizontal className="h-6 w-6 text-white" />
         </div>
         <Link href={`/cars-fleet/${carId}`}>
-          <div className="relative h-48 w-full">
+          <div className="relative h-72 w-full">
             <Image
               src={image || "/placeholder.svg"}
               alt={name}

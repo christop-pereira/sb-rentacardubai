@@ -3,6 +3,7 @@ export const fr = {
     home: "Accueil",
     carsFleet: "Flotte de Voitures",
     services: "Services",
+    faq: "FAQ",
     bookNow: "Réserver",
     yes: "Oui",
     no: "Non",
@@ -102,6 +103,62 @@ export const fr = {
     prices: {
       title: "MEILLEURS PRIX À DUBAÏ",
       description: "Nous offrons les prix les plus compétitifs pour la location de voitures de luxe",
+    },
+  },
+  faq: {
+    aboutUs: "À PROPOS DE NOUS",
+    title: "FAQ - QUESTIONS FRÉQUEMMENT POSÉES",
+    vehicles: {
+      question: "Quels véhicules puis-je louer chez vous ?",
+      answer: "Vous pouvez louer tous types de véhicules, allant des voitures standard aux supercars haut de gamme.",
+    },
+    documents: {
+      question: "Quels documents sont requis ?",
+      answer: "Un passeport valide et un permis de conduire valide aux Émirats arabes unis sont requis.",
+    },
+    license: {
+      question: "Ai-je besoin d'un permis de conduire ?",
+      answer: "Oui, un permis de conduire valide accepté aux Émirats arabes unis est obligatoire.",
+    },
+    deposit: {
+      question: "Dois-je laisser un dépôt ?",
+      answer: "AUCUN DÉPÔT n'est requis pour nos véhicules.",
+    },
+    mileage: {
+      question: "Y a-t-il des limites de kilométrage ?",
+      answer:
+        "Oui, le kilométrage est limité selon le véhicule : généralement 250 km/jour, ou 200 km/jour pour les supercars.",
+    },
+    included: {
+      question: "Qu'est-ce qui est inclus dans le prix de location ?",
+      answer:
+        "La location inclut le véhicule pour 24 heures complètes. Le carburant, les amendes et autres frais externes ne sont pas inclus.",
+    },
+    hiddenFees: {
+      question: "Y a-t-il des frais cachés ?",
+      answer:
+        "Non, il n'y a pas de frais cachés. Si vous avez des questions, n'hésitez pas à nous contacter à tout moment.",
+    },
+    refund: {
+      question: "Serai-je remboursé si je rends la voiture en avance ?",
+      answer:
+        "Aucun remboursement n'est fourni une fois la location commencée, même si vous rendez la voiture en avance.",
+    },
+    pickup: {
+      question: "Où puis-je récupérer / rendre la voiture ?",
+      answer: "La prise en charge et le retour sont disponibles partout à Dubaï.",
+    },
+    lateReturn: {
+      question: "Que se passe-t-il si je rends la voiture en retard ?",
+      answer: "Les retours tardifs peuvent entraîner des frais supplémentaires.",
+    },
+    dropOff: {
+      question: "Puis-je rendre la voiture dans un autre endroit ?",
+      answer: "Oui, mais cela doit être convenu avant le début de la location.",
+    },
+    trafficFine: {
+      question: "Que se passe-t-il si j'ai une amende de circulation ?",
+      answer: "Toutes les amendes de circulation doivent être réglées au moment du retour.",
     },
   },
   footer: {

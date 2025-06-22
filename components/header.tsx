@@ -23,6 +23,7 @@ export default function Header() {
     { name: "common.home", href: "/" },
     { name: "common.carsFleet", href: "/cars-fleet" },
     { name: "common.services", href: "/services" },
+    { name: "common.faq", href: "/faq" },
   ]
 
   const isActive = (path: string) => pathname === path
@@ -32,9 +33,15 @@ export default function Header() {
       <div className="container px-4 mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0">
-            <div className="relative h-14 w-48">
-              <Image src="/images/logo.png" alt="SB Luxury Rental Cars" fill className="object-contain" priority />
+          <Link href="/" className="flex items-center gap-3 z-20">
+            <div className="flex items-center gap-2 z-20 p-2 rounded-md">
+                <Image
+                  src="/images/logo.png"
+                  alt="Logo"
+                  width={200}
+                  height={60}
+                  className="h-[70px] w-[200px] object-cover rounded-md"
+                />
             </div>
           </Link>
 
@@ -57,23 +64,18 @@ export default function Header() {
           {/* Contact & Book Now */}
           <div className="hidden md:flex items-center space-x-8">
             <div className="flex flex-col items-start">
+              {/* Numéro de téléphone avec logo WhatsApp */}
               <a href={`https://wa.me/${phoneNumber}`} className="text-gray-800 font-medium flex items-center">
-                <div className="relative w-4 h-4 mr-1">
-                  <Image 
-                    src="/images/whatsapp-logo.png" 
-                    alt="WhatsApp" 
-                    width={16} 
-                    height={16} 
-                    className="object-contain"
-                  />
-                </div>
+                <img src="/images/whatsapp-logo.png" alt="WhatsApp" width="16" height="16" className="mr-1" />
                 {phoneNumber}
               </a>
+
+              {/* Instagram avec icône */}
               <a
                 href="https://instagram.com/sb.rentacar"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-gray-600 flex items-center"
+                className="text-sm text-gray-600 flex items-center mt-1"
               >
                 <Instagram className="w-4 h-4 mr-1 text-pink-600" />
                 SB.RENTACAR
@@ -130,16 +132,13 @@ export default function Header() {
                     </a>
 
                     <div className="flex flex-col items-center mt-4 space-y-2">
+                      {/* Numéro de téléphone avec logo WhatsApp */}
                       <a href={`https://wa.me/${phoneNumber}`} className="text-gray-800 font-medium flex items-center">
-                        <Image 
-                          src="/images/whatsapp-logo.png" 
-                          alt="WhatsApp" 
-                          width={16} 
-                          height={16} 
-                          className="object-contain"
-                        />
+                        <img src="/images/whatsapp-logo.png" alt="WhatsApp" width="16" height="16" className="mr-1" />
                         {phoneNumber}
                       </a>
+
+                      {/* Instagram avec icône */}
                       <a
                         href="https://instagram.com/sb.rentacar"
                         target="_blank"

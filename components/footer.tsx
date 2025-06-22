@@ -16,7 +16,7 @@ export default function Footer() {
           {/* About */}
           <div>
             <div className="mb-4 relative h-14 w-48">
-              <Image src="/images/logo.png" alt="SB Luxury Rental Cars" fill className="object-contain" />
+              <Image src="/images/logo.png" alt="SB Luxury Rental Cars" fill className="object-cover rounded-md p-2 bg-white rounded" />
             </div>
             <p className="text-gray-400 mb-4">{t("footer.about")}</p>
             <div className="flex space-x-4">
@@ -30,9 +30,6 @@ export default function Footer() {
               </a>
               <a href="#" className="text-gray-400 hover:text-red-600">
                 <Facebook />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-600">
-                <Twitter />
               </a>
             </div>
           </div>
@@ -56,6 +53,11 @@ export default function Footer() {
                   {t("common.services")}
                 </Link>
               </li>
+              <li>
+                <Link href="/faq" className="text-gray-400 hover:text-red-600">
+                  {t("common.faq")}
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -64,23 +66,23 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">{t("footer.popularCars")}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/cars-fleet/porsche-turbo-s" className="text-gray-400 hover:text-red-600">
-                  Porsche Turbo S
+                <Link href="/cars-fleet/ferrari-purosangue" className="text-gray-400 hover:text-red-600">
+                  Ferrari Purosangue
                 </Link>
               </li>
               <li>
-                <Link href="/cars-fleet/audi-rs3" className="text-gray-400 hover:text-red-600">
-                  Audi RS3
+                <Link href="/cars-fleet/lamborghini-aventador-svj" className="text-gray-400 hover:text-red-600">
+                  Lamborghini Aventador SVJ
                 </Link>
               </li>
               <li>
-                <Link href="/cars-fleet/amg-gt-63-s" className="text-gray-400 hover:text-red-600">
-                  AMG GT 63 S
+                <Link href="/cars-fleet/porsche-gt3-rs-weissach" className="text-gray-400 hover:text-red-600">
+                  Porsche GT3 RS Weissach
                 </Link>
               </li>
               <li>
-                <Link href="/cars-fleet/purosangue" className="text-gray-400 hover:text-red-600">
-                  Purosangue
+                <Link href="/cars-fleet/rolls-royce-cullinan" className="text-gray-400 hover:text-red-600">
+                  Rolls Royce Cullinan
                 </Link>
               </li>
             </ul>

@@ -23,10 +23,12 @@ export function CarGrid() {
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="all">{t("carsFleet.allBrands")}</SelectItem>
-            <SelectItem value="porsche">Porsche</SelectItem>
+            <SelectItem value="ferrari">Ferrari</SelectItem>
+            <SelectItem value="lamborghini">Lamborghini</SelectItem>
             <SelectItem value="audi">Audi</SelectItem>
             <SelectItem value="mercedes">Mercedes</SelectItem>
-            <SelectItem value="ferrari">Ferrari</SelectItem>
+            <SelectItem value="rolls-royce">Rolls Royce</SelectItem>
+            <SelectItem value="porsche">Porsche</SelectItem>
           </SelectContent>
         </Select>
       </div>

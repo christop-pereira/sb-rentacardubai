@@ -3,6 +3,7 @@ export const en = {
     home: "Home",
     carsFleet: "Cars Fleet",
     services: "Services",
+    faq: "Q&A",
     bookNow: "Book Now",
     yes: "Yes",
     no: "No",
@@ -101,6 +102,59 @@ export const en = {
     prices: {
       title: "BEST PRICES IN DUBAI",
       description: "We offer the most competitive prices for luxury car rentals",
+    },
+  },
+  faq: {
+    aboutUs: "ABOUT US",
+    title: "FAQ - FREQUENTLY ASKED QUESTIONS",
+    vehicles: {
+      question: "Which vehicles can I rent from you?",
+      answer: "You can rent all types of vehicles, ranging from standard cars to high-end supercars.",
+    },
+    documents: {
+      question: "What documents are required?",
+      answer: "A valid passport and a driving licence that is valid in the UAE are required.",
+    },
+    license: {
+      question: "Do I need to have a driver's licence?",
+      answer: "Yes, a valid driver's licence that is accepted in the UAE is mandatory.",
+    },
+    deposit: {
+      question: "Do I need to let a deposit?",
+      answer: "NO DEPOSIT is required for any of our vehicles.",
+    },
+    mileage: {
+      question: "Are there any mileage limits?",
+      answer: "Yes, mileage is limited depending on the vehicle: typically 250 km/day, or 200 km/day for supercars.",
+    },
+    included: {
+      question: "What is included in the rental price?",
+      answer:
+        "The rental includes the vehicle for a full 24 hours. Fuel, fines, and other external charges are not included.",
+    },
+    hiddenFees: {
+      question: "Are there any hidden fees?",
+      answer: "No, there are no hidden fees. If you have any questions, feel free to contact us anytime.",
+    },
+    refund: {
+      question: "Will I be refunded if I return early?",
+      answer: "No refunds are provided once the rental has started, even if you return the car early.",
+    },
+    pickup: {
+      question: "Where can I pick up / drop off the car?",
+      answer: "Pick-up and drop-off are available anywhere within Dubai.",
+    },
+    lateReturn: {
+      question: "What happens if I return the car late?",
+      answer: "Late returns may result in additional charges.",
+    },
+    dropOff: {
+      question: "Can I drop off the car in another location?",
+      answer: "Yes, but this must be agreed upon before the rental begins.",
+    },
+    trafficFine: {
+      question: "What if I get a traffic fine?",
+      answer: "All traffic fines must be settled at the time of drop-off.",
     },
   },
   footer: {

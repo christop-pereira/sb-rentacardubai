@@ -14,13 +14,13 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       {/* Hero Section with Dubai Skyline */}
-      <section 
-        className="relative w-full h-[500px] bg-cover bg-center" 
+      <section
+        className="relative w-full h-[500px] bg-cover bg-center"
         style={{ backgroundImage: "url('/images/background.png')" }}
       >
         {/* Overlay sombre pour améliorer la lisibilité du texte */}
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        
+
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="container px-4 z-10">
             <div className="max-w-3xl mx-auto text-center">
@@ -47,13 +47,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredCars.map((car) => (
-              <CarCard 
-                key={car.id}
-                id={car.id}
-                name={car.name}
-                image={car.image}
-                price={car.dailyPrice.toString()}
-              />
+              <CarCard key={car.id} id={car.id} name={car.name} image={car.image} price={car.dailyPrice.toString()} />
             ))}
           </div>
 

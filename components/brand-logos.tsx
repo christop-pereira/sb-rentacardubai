@@ -1,15 +1,15 @@
 export function BrandLogos() {
   const brands = [
-    { name: "McLaren", image: "/placeholder.svg?height=60&width=120" },
-    { name: "Lamborghini", image: "/placeholder.svg?height=60&width=120" },
-    { name: "Porsche", image: "/placeholder.svg?height=60&width=120" },
-    { name: "Ferrari", image: "/placeholder.svg?height=60&width=120" },
-    { name: "Rolls Royce", image: "/placeholder.svg?height=60&width=120" },
-    { name: "Mercedes", image: "/placeholder.svg?height=60&width=120" },
+    { name: "Rolls Royce", image: "/logoRolls.png" },
+    { name: "Lamborghini", image: "/logoLamborghini.png" },
+    { name: "Porsche", image: "/logoPorsche.png" },
+    { name: "Ferrari", image: "/logoFerrari.png" },
+    { name: "Audi", image: "/logoAudi.png" },
+    { name: "Mercedes", image: "/logoMercedes.png" },
   ]
 
   return (
-    <section className="py-10 bg-gray-800">
+    <section className="py-10 bg-black">
       <div className="container px-4">
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
           {brands.map((brand) => (
